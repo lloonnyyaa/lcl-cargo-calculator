@@ -1,0 +1,90 @@
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+input[type=text]{
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+.height-100{
+    height: 100%;
+}
+.vh{
+    height: 100vh
+}
+.half-vh{
+    height: 50vh
+}
+img{
+    height: 100%;
+    width: auto;
+}
+.block-inputs-green{
+    background-image: linear-gradient(to right, #4DF22B, #28A30E);
+    border-radius: 10px;
+}
+.block-inputs-green input{
+    background: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 3px solid #fff;
+    outline: none;
+}
+.calc-field{
+    color: #fff;
+    text-transform: uppercase;
+}
+.calc-field label{
+    background-image: linear-gradient(to right, #3F3F3F, #0E0E0E);
+    padding: 10px 5px 10px 0;
+    border-radius: 10px 0 0 10px;
+}
+.calc-field div.col-6{
+    background-image: linear-gradient(to right, #4DF22B, #28A30E);
+    padding: 10px 5px 10px 0;
+    border-radius: 0 10px 10px 0;
+}
+.calc-field input{
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #fff;
+    text-align: center;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    color: #fff;
+    text-align: center;
+}
+:-ms-input-placeholder { /* IE 10+ */
+    color: #fff;
+    text-align: center;
+}
+:-moz-placeholder { /* Firefox 18- */
+    color: #fff;
+    text-align: center;
+}
+.calc-button{
+    background: #F3B600;
+    border-radius: 10px;
+}
+.history-button{
+    color:#fff;
+    background:#7F797D;
+}
+.modal-body{
+    font-size: 16px;
+}
+.button-modal-close{
+    background: #4DF22B;
+    color:#fff;
+}
+.img-fluid {
+    max-width: 75%;
+    height: auto;
+} 
